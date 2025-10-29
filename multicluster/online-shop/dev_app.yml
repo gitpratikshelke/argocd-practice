@@ -11,7 +11,7 @@ spec:
     targetRevision: main
     path: ui_approach/nginx        # Path to nginx manifests
   destination:
-    server: https://172.31.28.175:33893     # from `argocd cluster list`
+    server: https://kubernetes.default.svc    # from `argocd cluster list`
     namespace: default
   syncPolicy:
     automated:
