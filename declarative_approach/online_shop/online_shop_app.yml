@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/gitpratikshelke/argocd-practice.git    
+    repoURL: https://github.com/gitpratikshelke/argocd-practice.git 
     targetRevision: main
     path: declarative_approach/online_shop
   destination:
